@@ -7,7 +7,7 @@ A simple yet functional **Node.js HTTP server** that serves multiple static HTML
 
 ## 📸 Live Demo
 
-> [Vercel](https://nodejs-http-server-theta.vercel.app/).
+> [VercelDemo](https://nodejs-http-server-theta.vercel.app/).
 
 ---
 
@@ -69,8 +69,6 @@ Visit: [http://localhost:8000](http://localhost:8000)
 
 ## 📷 Screenshots
 
-<details>
-<summary>Click to expand</summary>
 
 - 🏠 Home Page (index.html)
 - 
@@ -84,7 +82,7 @@ Visit: [http://localhost:8000](http://localhost:8000)
 )
 
 - 👤 About Page (about.html)
-- 
+  
  ![aboutpage](<img width="1883" height="942" alt="Screenshot 2025-07-18 035953" src="https://github.com/user-attachments/assets/4dc4d9ec-1fb0-4eb0-8366-8ab49cb192f0" />
 )
 
@@ -98,7 +96,7 @@ Visit: [http://localhost:8000](http://localhost:8000)
 ![404Error](<img width="1897" height="946" alt="Screenshot 2025-07-18 035058" src="https://github.com/user-attachments/assets/43cdaecb-83a2-401e-8e6e-0c8ff8674767" />
 )
 
-</details>
+
 
 ---
 
