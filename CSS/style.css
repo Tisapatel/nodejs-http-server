@@ -1,0 +1,295 @@
+body {
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+  background-image: url(../imgs/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-text {
+  font-size: 26px;
+  text-transform: lowercase;
+}
+
+.logo-text span {
+  color: #aefc6b;
+}
+
+.hero {
+  height: 100vh;
+  background: url('../imgs/nodejs.jpg') no-repeat center center/cover;
+}
+
+.about-section {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.about-img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-content h2 {
+  color: var(--node-accent);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: white;
+  line-height: 1.8;
+}
+
+:root {
+  --node-card-bg: #1e1e1e;
+  --node-card-border: #333;
+  --node-card-text: #fff;
+  --node-accent: #83cd29;
+  /* Node.js green */
+  --node-accent-hover: #9ce63a;
+}
+
+
+/* ===== Timeline Section Wrapper ===== */
+#nodeTimelineSection {
+  padding: 4rem 0;
+  position: relative;
+}
+
+#nodeTimelineSection .section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+  font-weight: 600;
+  color: var(--node-accent);
+}
+
+#nodeTimelineSection .section-subtitle {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  opacity: .8;
+  font-size: 1rem;
+}
+
+/* ===== Cards Grid Area ===== */
+.node-cards-wrapper {
+  min-height: 320px;
+  /* reserve space to reduce layout jump when paging */
+  transition: opacity .25s ease-in-out;
+}
+
+.node-card {
+  background: var(--node-card-bg);
+  border: 1px solid var(--node-card-border);
+  border-radius: 1rem;
+  padding: 1.25rem 1.25rem 2.75rem;
+  /* leave space for More btn */
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.node-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: .75rem;
+  color: var(--node-accent-hover);
+}
+
+.node-card .node-card-summary {
+  font-size: .95rem;
+  line-height: 1.35;
+  color: var(--node-card-text);
+  opacity: .9;
+  /* Clamp to ~3 lines */
+  display: -webkit-box;
+
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+}
+
+.node-card .node-more-btn {
+  margin-top: auto;
+  position: absolute;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: auto;
+}
+
+.node-card .node-more-btn.btn {
+  border: 1px solid var(--node-accent);
+  color: var(--node-accent);
+  background: transparent;
+  font-size: .875rem;
+  padding: .25rem .75rem;
+  transition: all .15s ease-in-out;
+}
+
+.node-card .node-more-btn.btn:hover,
+.node-card .node-more-btn.btn:focus {
+  background: var(--node-accent);
+  color: #000;
+  border-color: var(--node-accent);
+}
+
+/* ===== Pagination Controls ===== */
+.node-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .25rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.node-pagination button {
+  min-width: 2.25rem;
+  min-height: 2.25rem;
+  padding: 0 .5rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: .5rem;
+  border: 1px solid var(--node-accent);
+  background: transparent;
+  color: var(--node-accent);
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.node-pagination button:hover:not(.active):not(:disabled) {
+  background: var(--node-accent);
+  color: #000;
+}
+
+.node-pagination button.active {
+  background: var(--node-accent);
+  color: #000;
+  cursor: default;
+}
+
+.node-pagination button:disabled {
+  opacity: .35;
+  cursor: not-allowed;
+}
+
+.websites-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.websites-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: var(--node-accent);
+}
+
+.slider-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.website-card {
+  flex: 0 0 250px;
+  background: #161b22;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.website-card:hover {
+  transform: translateY(-5px);
+}
+
+.website-card img {
+  max-width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.website-card h5 {
+  color: var(--node-card-text);
+  margin-bottom: 10px;
+}
+
+.website-card p {
+  font-size: 0.9rem;
+}
+
+.visit-btn {
+  margin-top: 20px;
+  background: var(--node-accent);
+  border: none;
+  padding: 6px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #000;
+  transition: background 0.3s ease;
+}
+
+.visit-btn:hover {
+  background: var(--node-accent-hover);
+  color: #fff;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin-top: 160px;
+  margin: 60px auto;
+  padding: 40px;
+  background: var(--node-accent);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-control:focus {
+  border-color: var(--node-accent);
+  box-shadow: none;
+}
+
+.btn-primary {
+  padding: 10px 25px;
+}
+
+.success-message {
+  display: none;
+  margin-top: 20px;
+}
+
+.footer i {
+  transition: transform 0.3s ease;
+}
+
+.footer i:hover {
+  transform: scale(1.2);
+}
