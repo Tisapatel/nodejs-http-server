@@ -67,38 +67,6 @@ Visit: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 📷 Screenshots
-
-
-- 🏠 Home Page (index.html)
-- 
-![Homepage](<img width="1900" height="882" alt="Screenshot 2025-07-18 034828" src="https://github.com/user-attachments/assets/75b5d496-903a-47a1-8e93-19edd5880a5c" />
-)
-
-![Timeline](<img width="1893" height="880" alt="Screenshot 2025-07-18 034940" src="https://github.com/user-attachments/assets/64e054fb-e6e1-4076-9471-812342f81509" />
-)
-
-![TopCompany](<img width="1900" height="876" alt="Screenshot 2025-07-18 035004" src="https://github.com/user-attachments/assets/e282c9d7-4186-42c1-a574-aad8c42e728c" />
-)
-
-- 👤 About Page (about.html)
-  
- ![aboutpage](<img width="1883" height="942" alt="Screenshot 2025-07-18 035953" src="https://github.com/user-attachments/assets/4dc4d9ec-1fb0-4eb0-8366-8ab49cb192f0" />
-)
-
-- 📞 Contact Page (contact.html)
-- 
-![contactpage](<img width="1899" height="948" alt="Screenshot 2025-07-18 035133" src="https://github.com/user-attachments/assets/0dd6e680-0062-4492-ba51-17645289b304" />
-)
-
-- 🚫 404 Page (404.html)
-- 
-![404Error](<img width="1897" height="946" alt="Screenshot 2025-07-18 035058" src="https://github.com/user-attachments/assets/43cdaecb-83a2-401e-8e6e-0c8ff8674767" />
-)
-
-
-
----
 
 ## 📌 Best Practices Followed
 
