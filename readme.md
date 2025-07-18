@@ -17,11 +17,8 @@ Node-js_Custom Server Using HTTP/
 ├── 404.html               # Custom 404 error page
 ├── CSS/
 │   └── style.css          # Main CSS styles
-├── imgs/
-│   ├── about.jpeg
-│   ├── banner.jpg
-│   ├── bg.png
-│   └── nodejs.jpg
+├── imgs
+
 ```
 
 ---
